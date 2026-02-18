@@ -1,4 +1,4 @@
-# ActiveMQ Artemis Test App
+# ActiveMQ Test App
 
 A Java app that makes TCP requests to an ActiveMQ Artemis for testing purposes.
 
