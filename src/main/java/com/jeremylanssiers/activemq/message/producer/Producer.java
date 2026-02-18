@@ -15,16 +15,16 @@ import java.util.UUID;
 public class Producer implements CommandLineRunner {
     private final JmsTemplate jmsTemplate;
 
-    @Value("${app.jms.routing-context.address:messageAddress}")
+    @Value("${producer.jms.routing-context.address:messageAddress}")
     private String destinationName;
 
-    @Value("${app.jms.routing-context.routing-type:ANYCAST}")
+    @Value("${producer.jms.routing-context.routing-type:ANYCAST}")
     private String routingType;
 
-    @Value("${app.jms.message-producer:messageProducer}")
+    @Value("${producer.jms.message-producer:messageProducer}")
     private String producerName;
 
-    @Value("${app.jms.message-reply-user:messageReplyUser}")
+    @Value("${producer.jms.message-reply-user:messageReplyUser}")
     private String replyUser;
 
     public Producer(JmsTemplate jmsTemplate) {

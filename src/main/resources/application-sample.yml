@@ -1,7 +1,0 @@
-app:
-  jms:
-    routing-context:
-      address: messageAddress
-      routing-type: ANYCAST
-    message-producer: messageProducer
-    message-reply-user: messageReplyUser
