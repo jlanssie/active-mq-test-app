@@ -88,8 +88,6 @@ application-*.yaml
 
 !application.yml
 !application.yaml
-!application-sample.yml
-!application-sample.yaml
 
 # ==========================================
 # 5. SECURITY & ENVIRONMENT
