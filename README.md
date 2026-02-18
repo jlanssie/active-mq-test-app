@@ -6,10 +6,14 @@ A Java app that makes TCP requests to an ActiveMQ Artemis for testing purposes.
 
 Install with Maven using the provided settings.xml
 
+### PowerShell 
+
 ```powershell
 mvn clean install -s settings.xml -T 1C -Psubscriber;
 mvn clean install -s settings.xml -T 1C -Pproducer
 ```
+
+### Bash
 
 ```bash
 mvn clean install -s settings.xml -T 1C -Psubscriber && mvn clean install -s settings.xml -T 1C -Pproducer
